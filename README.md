@@ -8,7 +8,7 @@
   
 This project consists of a color sorting system that uses the UR5 model robot from Universal Robots and MATLAB image processing software in order to achieve its goal. The system was able to detect the location and color of cubes on a workbench from a picture, allowing the robot to sort the objects into bins based on their color. Also, some filters that introduced noise were added to make the program more powerful and robust.
 	  
-  <br>Universidad de las Américas Puebla - Guided by Dr. José Luis Vázquez González "https://scholar.google.com/citations?user=Y3FiPaQAAAAJ&hl=es" 
+  <br>Universidad de las Américas Puebla - The project was supervised by Professor José Luis Vázquez González (PhD in Electronics) "https://scholar.google.com/citations?user=Y3FiPaQAAAAJ&hl=es" 
   </p>
 </p>
 <be>
@@ -16,7 +16,9 @@ This project consists of a color sorting system that uses the UR5 model robo
 ## Table of contents
 - [Key Components](#Key_Components)
 - [Installation and Setup](#Installation_and_Setup)
+- [Usage](#IUsage)
 - [Contributors](#Contributors)
+- [Results](#Results)
 
 <div align= "justify">
 
@@ -45,6 +47,26 @@ Before diving into the code, make sure you have the following prerequisites:
 git clone https://github.com/AldoPenaGa/UR5_CubesColorFiltering_MATLAB
 
 ```
+
+### Usage
+
+1. Capture the images and introduce them in the MATLAB workspace folder.
+2. Run the MATLAB program (colorSorterer.m) to do the filtering and obtain the table that indicates the color of each cube in each position.
+3. Program the UR5 variables and routines:
+   3.1 Use the teach pendant of the UR5 to create ten variables that represent the ten cubes in the workspace. Associate the colors to a number.
+   3.2 Program the routines using moveJ and moveL to set up the positions and the configurations HOME, APPROACH-PICK, PICK, APPROACH-PLACE, PLACE.
+
+4. Update the numbers associated with each color in the variables section in order to indicate the UR5 which routine will be executing.
+
+ Once the routines have been settled, step 3 can be skipped. 
+
+### Results
+
+The time elapsed for each interaction can be seen in the following figures. 
+
+<img src="https://github.com/AldoPenaGa/UR5_ROS_Gazebo_BinPicking/blob/main/RCleanImage.png">
+
+<img src="https://github.com/AldoPenaGa/UR5_ROS_Gazebo_BinPicking/blob/main/RNoisyImage.png">
 
 ### Contributors
 
