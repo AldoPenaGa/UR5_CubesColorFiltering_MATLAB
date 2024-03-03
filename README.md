@@ -65,9 +65,9 @@ git clone https://github.com/AldoPenaGa/UR5_CubesColorFiltering_MATLAB
 
 The time elapsed for each interaction can be seen in the following figures. 
 
-<img src="https://github.com/AldoPenaGa/UR5_ROS_Gazebo_BinPicking/blob/main/RCleanImage.png">
+<img src="https://github.com/AldoPenaGa/UR5_CubesColorFiltering_MATLAB/blob/main/RCleanImage.png">
 
-<img src="https://github.com/AldoPenaGa/UR5_ROS_Gazebo_BinPicking/blob/main/RNoisyImage.png">
+<img src="https://github.com/AldoPenaGa/UR5_CubesColorFiltering_MATLAB/blob/main/RNoisyImage.png">
 
 ### Contributors
 
