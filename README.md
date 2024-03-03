@@ -34,7 +34,7 @@ This project consists of a color sorting system that uses the UR5 model robo
 Before diving into the code, make sure you have the following prerequisites:
 
 - UR5 robot (or a compatible robotic arm)
-- MATLAB installed (version X.X or higher)
+- MATLAB installed (version 2023a or higher)
 - Webcam or camera for image capture
 
 
