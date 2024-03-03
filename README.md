@@ -14,21 +14,22 @@ This project consists of a color sorting system that uses the UR5 model robo
 <be>
 
 ## Table of contents
-- [Key Components](#Key_Components)
-- [Installation and Setup](#Installation_and_Setup)
-- [Usage](#IUsage)
-- [Contributors](#Contributors)
+- [Key_Components](#Key_Components)
+- [Installation_and_Setup](#Installation_and_Setup)
+- [Usage](#Usage)
 - [Results](#Results)
+- [Contributors](#Contributors)
+
 
 <div align= "justify">
 
-### Key Components
+### Key_Components
 
 - UR5 Robot Arm: The UR5, a versatile industrial robot, plays a crucial role in physically handling and sorting objects. It can pick up items from a workbench and place them into designated bins
 
 - MATLAB Image Processing: We’ve developed a robust image processing pipeline using MATLAB. It identifies the location of objects on the workbench and determines their colors. The processed data is then used to guide the robot’s actions.
 
-### Installation and Setup
+### Installation_and_Setup
 
 Before diving into the code, make sure you have the following prerequisites:
 
