@@ -33,12 +33,12 @@ This project consists of a color sorting system that uses the UR5 model robo
 
 Before diving into the code, make sure you have the following prerequisites:
 
-- UR5 robot (or a compatible robotic arm)
-- MATLAB installed (version 2023a or higher)
-- Webcam or camera for image capture
+- UR5 robot (or a compatible robotic arm) with its teach pendant and gripper.
+- MATLAB license (version 2023a or higher).
+- Webcam or camera for image capture.
 
 
-1. Install MATLAB (R2023a or newer version). https://la.mathworks.com/help/install/install-products.html
+1. If not installed, install MATLAB (R2023a or newer version). https://la.mathworks.com/help/install/install-products.html
 
 2. Install the Image Processing Toolbox in MATLAB. https://la.mathworks.com/products/image.html
 
