@@ -74,7 +74,7 @@ The time elapsed for each interaction can be seen in the following figures.
 | Name                          | Github                               |
 |-------------------------------|--------------------------------------|
 | Aldo Oziel Peña Gamboa        | https://github.com/AldoPenaGa        |
-| José Miguel Zúñiga Juárez     | https://github.com/JoseMiguelZG      |
+| José Miguel Zúñiga Juárez     | https://github.com/mike130201        |
 | Alessia Simonetti             | https://github.com/SimonettiAl       |
 | Adrián Enrique Diaz Fornes    | https://github.com/FornesEnrique     |
 
